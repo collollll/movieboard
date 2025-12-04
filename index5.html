@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <script src="jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <h1><a href="index4.html">Let's Movie</a></h1>
+        <nav>
+          <ul>
+            <li>
+              <button class="btn1">현재상영작</button>
+            </li>
+            <li>
+              <button class="btn2">상영예정</button>
+            </li>
+            <li>
+              <button class="btn3">추천영화</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="con01">
+      <h3 class="title">현재 상영작</h3>
+      <div id="nowBoard"></div>
+      <div class="down">
+        <button class="more">더보기</button>
+        <button class="back">접기</button>
+      </div>
+    </section>
+
+    <section id="con02">
+      <h3 class="title">상영예정</h3>
+      <div id="upcomingBoard"></div>
+      <div class="down">
+        <button class="more">더보기</button>
+        <button class="back">접기</button>
+      </div>
+    </section>
+
+    <section id="con03">
+      <div class="genre">
+        <h3 class="title">추천영화</h3>
+        <ul>
+          <li><button class="allBtn active">전체</button></li>
+          <li><button class="genreBtn" data-genre="80">범죄</button></li>
+          <li><button class="genreBtn" data-genre="14">판타지</button></li>
+          <li><button class="genreBtn" data-genre="10749">로맨스</button></li>
+        </ul>
+      </div>
+
+      <div id="suggestBoard"></div>
+      <div class="down">
+        <button class="more">더보기</button>
+        <button class="back">접기</button>
+      </div>
+    </section>
+
+    <section id="con04">
+      <h3 class="title">검색결과</h3>
+      <div id="movieBoard"></div>
+    </section>
+
+    <script src="custom5.js"></script>
+    <!-- <script src="test.js"></script> -->
+  </body>
+</html>
