@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Movie Board</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -14,22 +14,32 @@
   <body>
     <header>
       <div class="wrap">
-        <h1><a href="index4.html">Let's Movie</a></h1>
+        <h1><a href="index.html">Let's Movie</a></h1>
         <nav>
           <ul>
             <li>
-              <button class="btn1">현재상영작</button>
+              <button class="btn1">박스오피스</button>
             </li>
             <li>
-              <button class="btn2">상영예정</button>
+              <button class="btn2">현재상영작</button>
             </li>
             <li>
-              <button class="btn3">추천영화</button>
+              <button class="btn3">상영예정</button>
+            </li>
+            <li>
+              <button class="btn4">추천영화</button>
             </li>
           </ul>
         </nav>
       </div>
     </header>
+
+    <section id="slide">
+      <h3 class="title">박스오피스</h3>
+      <div>
+        <ul class="slideImg"></ul>
+      </div>
+    </section>
 
     <section id="con01">
       <h3 class="title">현재 상영작</h3>
@@ -65,11 +75,6 @@
         <button class="more">더보기</button>
         <button class="back">접기</button>
       </div>
-    </section>
-
-    <section id="con04">
-      <h3 class="title">검색결과</h3>
-      <div id="movieBoard"></div>
     </section>
 
     <script src="custom.js"></script>
